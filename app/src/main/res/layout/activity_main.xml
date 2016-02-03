@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:outlineProvider="paddedBounds"
+    android:elevation="@dimen/abc_action_bar_default_padding_start_material"
+    android:padding="@dimen/design_fab_elevation"
+    android:paddingLeft="@dimen/design_fab_elevation"
+    android:paddingTop="@dimen/design_fab_elevation"
+    android:paddingRight="@dimen/design_fab_elevation"
+    android:paddingBottom="@dimen/design_fab_elevation"
+    android:paddingEnd="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+    android:paddingStart="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+    android:background="#ffffff"
+    android:foreground="@color/abc_secondary_text_material_light">
+
+
+
+
+
+
+    <include layout="@layout/content_main" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
